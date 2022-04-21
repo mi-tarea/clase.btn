@@ -11,17 +11,17 @@
 <body>
     <h1>Calculadora de peso ideal usando la fórmula de Paul Broca</h1>
         <hr>
+    
     <form>
         <div class="container">
             <div class="row">
                 <div class="col-25">
                     <label>Altura (cm)</label>
                 </div>
-                <div class="col-75">
-                    <input type="number" step="any" min="100" max="200" required placeholder="Tu altura en (cm)">
-                </div>    
+                    <div class="col-75">
+                        <input type="number" step="any" min="100" max="200" required placeholder="Tu altura en (cm)">
+                    </div>    
             </div>         
-    
     <br><br>
 
     <label>Edad</label>
@@ -32,25 +32,25 @@
         </select> 
         <br><br>
 
-        <label>Sexo</label>
-        <select name="edad">
-            <option value="1">Masculino</option>
-            <option value="2">Femenino</option>
-        </select> 
-        <br><br>  
-
-        
+    <label>Sexo</label>
+    <select name="edad">
+        <option value="1">Masculino</option>
+        <option value="2">Femenino</option>
+    </select> 
+    <br><br>
+    
             <div class="row">
                 <div class="col-25">
                     <label>Circumferencia de la muñeca de la mano derecha (cm)</label>
                 </div>
                 <div class="col-75">
-                    <input type="number" step="any" min="10" max="200" zise="20" required placeholder="La circumferencia en (cm)">
-                </div>    
-            </div>                  
-        </form>
+                    <input type="number" step="any" min="10" max="200" required placeholder="La circumferencia en (cm)">
+                </div>
+            </div>                      
+    </form>
+
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Limpiar">  
     
-    <input type="submit" value="Calcular">
-    <input type="reset" value="Limpiar">
 </body>
 </html>
